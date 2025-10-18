@@ -67,9 +67,8 @@ summary = summarizer(input_text, max_length=150, min_length=30, do_sample=False)
 
 3. **Encoding & Decoding:**
 
-- The encoder reads the input text and converts it into a context vector — a representation of meaning.
-
--The decoder then generates a shorter version of the text (summary) by predicting the next words step by step.
+    - The encoder reads the input text and converts it into a context vector — a representation of meaning.
+    -The decoder then generates a shorter version of the text (summary) by predicting the next words step by step.
 
 4. **Output: ** The tokens are converted back into readable text and displayed as the final summary in the app.
 
@@ -77,5 +76,6 @@ Internally, models like BART and T5 use a transformer-based encoder-decoder arch
 
 👩‍💻 Author
 -Sahana
+
 
 
