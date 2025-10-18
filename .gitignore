@@ -1,0 +1,26 @@
+# Ignore Python cache and virtual environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter or temp notebooks
+.ipynb_checkpoints/
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+
+# Ignore model cache (optional)
+*.bin
+*.pt
+*.h5
